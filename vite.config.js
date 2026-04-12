@@ -11,7 +11,7 @@ export default defineConfig({
   plugins: [vue(), vueDevTools(), cloudflare()],
   resolve: {
     alias: {
-      '@': path.resolve(process.cwd(), 'src')
+      '@': path.resolve(process.cwd(), 'src'),
     },
   },
 })

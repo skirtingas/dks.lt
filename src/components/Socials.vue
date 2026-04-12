@@ -10,7 +10,9 @@
     <a href="https://www.youtube.com/@laurynasdauksa" target="_blank"
       ><font-awesome-icon icon="fa-brands fa-youtube" class="icon"
     /></a>
-    <a href="https://mintys.dks.lt/" target="_blank"><font-awesome-icon icon="fa-solid fa-brain" class="icon" /></a>
+    <a href="https://mintys.dks.lt/explore" target="_blank"
+      ><font-awesome-icon icon="fa-solid fa-brain" class="icon"
+    /></a>
   </div>
 </template>
 
