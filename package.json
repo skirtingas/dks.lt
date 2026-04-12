@@ -6,11 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
+    "preview": "npm run build && wrangler dev",
     "lint": "run-s lint:*",
     "lint:oxlint": "oxlint . --fix",
     "lint:eslint": "eslint . --fix --cache",
-    "format": "prettier --write --experimental-cli src/"
+    "format": "prettier --write --experimental-cli src/",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.2.0",
@@ -23,6 +24,7 @@
     "vue-router": "^5.0.4"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.31.2",
     "@eslint/js": "^10.0.1",
     "@vitejs/plugin-vue": "^6.0.5",
     "eslint": "^10.1.0",
@@ -34,7 +36,8 @@
     "oxlint": "~1.57.0",
     "prettier": "3.8.1",
     "vite": "^8.0.3",
-    "vite-plugin-vue-devtools": "^8.1.1"
+    "vite-plugin-vue-devtools": "^8.1.1",
+    "wrangler": "^4.81.1"
   },
   "engines": {
     "node": "^20.19.0 || >=22.12.0"
