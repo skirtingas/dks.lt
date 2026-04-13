@@ -17,13 +17,13 @@
         <a href="/AudringasLietus.pdf" target="_blank">Natos(PDF)</a>
       </div>
       <div class="item">
-        <h3>Galvos Triukšmas (I - Triukšmas)</h3>
+        <h3>Galvos Balsai (I - Triukšmas)</h3>
         <p>
           Kūrinys fortepijonui. Mano antras natomis užrašytas kūrinys. Pirma dalis dviejų kūrinių ciklo. (Jau greitai)
         </p>
       </div>
       <div class="item">
-        <h3>Galvos Triukšmas (II - Ramybė)</h3>
+        <h3>Galvos Balsai (II - Ramybė)</h3>
         <p>Kūrinys fortepijonui ir vokalui. Antra dalis dviejų kūrinių ciklo. (Jau greitai)</p>
       </div>
     </div>
